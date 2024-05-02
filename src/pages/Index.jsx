@@ -11,11 +11,11 @@ const Index = () => {
   const songs = [
     {
       title: "Song 1",
-      url: "https://www.example.com/song1.mp3",
+      url: "https://proxy.example.com/https://www.example.com/song1.mp3",
     },
     {
       title: "Song 2",
-      url: "https://www.example.com/song2.mp3",
+      url: "https://proxy.example.com/https://www.example.com/song2.mp3",
     },
   ];
   const [currentSongIndex, setCurrentSongIndex] = useState(0);
